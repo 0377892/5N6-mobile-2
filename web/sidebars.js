@@ -10,8 +10,8 @@ const sidebars = {
     },
     {
       type: "doc",
-      label: "1.2 - Layout",
-      id: "cours/layout",
+      label: "1.2 - Mise en page",
+      id: "cours/mise-en-page",
     },
     {
       type: "doc",

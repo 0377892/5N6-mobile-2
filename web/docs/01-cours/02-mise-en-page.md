@@ -1,5 +1,5 @@
 ---
-title: Layout
+title: Mise en page
 description: Flutter - Mise en page
 hide_table_of_contents: true
 ---
@@ -44,7 +44,7 @@ Vous compléterez les exercices pour vous pratiquer.
 
 Drapeau italien. Vous devez faire une mise en page qui correspond au drapeau italien qui prend toute la hauteur de l'écran et où chaque couleur utilise un tiers de la largeur de l'écran.
 
-![drapeau italien](_02-layout/italie.png)
+![drapeau italien](_02-mise-en-page/italie.png)
 
 ### Exercice plein_de_containers
 
@@ -73,7 +73,7 @@ Indice, vous allez surement mettre des Row dans des Column dans des Row dans des
 
 <Column size="3">
 
-![simple](_02-layout/simple.png)
+![simple](_02-mise-en-page/simple.png)
 
 </Column>
 

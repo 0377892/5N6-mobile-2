@@ -48,7 +48,7 @@ Le deuxième écran affiche le contenu de la valeur qu'on vient de lui passer.
 
 ### Exercice liste_nav
 
-Faites un premier écran qui contient 5 objets de type Truc contenant un **name** et un **id**.
+Faites un premier écran qui contient 5 objets de type Truc contenant un **nom** et un **id**.
 
 Faites que l'appui sur un des éléments déclenche la navigation vers un deuxième écran qui affiche le truc.
 

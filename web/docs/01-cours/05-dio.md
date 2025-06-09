@@ -68,14 +68,14 @@ Vous finirez vos exercices si nécessaire et vous avancerez les appels HTTP et c
 
 :::note Exercices
 
-:::warning Attention!
-
-Nous utiliserons plusieurs web service hébergés sur Render au courant de la session. 
-Notez que les webservices hébergés sur Render se ferment après un certain délais où il n'y a pas eu de requêtes.
-Une requête envoyée au serveur va le "réveiller", mais ça peut prendre quelques minutes.
-Donc si vous faites les exercices chez vous ou que vous êtes un des permiers dans un cours à travailler sur des exercices qui utilisent render, c'est normal que les premières requêtes échouent, le temps que le serveur se "réchauffe".
-
-:::
+  :::warning Attention!
+  
+  Nous utiliserons plusieurs web service hébergés sur Render au courant de la session. 
+  Notez que les webservices hébergés sur Render se ferment après un certain délais où il n'y a pas eu de requêtes.
+  Une requête envoyée au serveur va le "réveiller", mais ça peut prendre quelques minutes.
+  Donc si vous faites les exercices chez vous ou que vous êtes un des permiers dans un cours à travailler sur des exercices qui utilisent render, c'est normal que les premières requêtes échouent, le temps que le serveur se "réchauffe".
+  
+  :::
 
 ### Exercice http_simple
 

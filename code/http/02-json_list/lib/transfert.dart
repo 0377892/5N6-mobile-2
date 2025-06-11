@@ -1,12 +1,12 @@
 import 'package:json_annotation/json_annotation.dart';
 
-/// This allows the `User` class to access private members in
-/// the generated file. The value for this is *.g.dart, where
-/// the star denotes the source file name.
+/// Cela permet à la classe `Truc` d'accéder aux membres privés dans
+/// le fichier généré. La valeur pour cela est *.g.dart, où
+/// l’astérisque représente le nom du fichier source.
 part 'transfert.g.dart';
 
-/// An annotation for the code generator to know that this class needs the
-/// JSON serialization logic to be generated.
+/// Une annotation permettant au générateur de code de savoir que cette classe
+/// nécessite la génération de la logique de sérialisation JSON.
 @JsonSerializable()
 class Truc {
   Truc();

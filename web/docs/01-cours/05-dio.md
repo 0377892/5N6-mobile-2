@@ -26,7 +26,7 @@ Vous devez regarder les videos suivantes:
 
 <Video url="https://youtu.be/cukpZ2ORbsI" />
 
-**[Envoi POST et gestion des erreurs](https://github.com/departement-info-cem/5N6-mobile-2-Nouveau/tree/main/code/http/03-post_json_error)**
+**[Envoi POST et gestion des erreurs](https://github.com/departement-info-cem/5N6-mobile-2/tree/main/code/http/03-post_json_erreur)**
 
 <Video url="https://youtu.be/DRhf5rFLvgI" />
 

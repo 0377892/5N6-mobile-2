@@ -34,7 +34,7 @@ Vous devez regarder les videos suivantes:
 
 Pour avoir un exemple de sérialisation des dates en JSON vous pouvez regarder les **TODO** dans l'exemple suivant:
 
-**[Gestion des dates](https://github.com/departement-info-cem/5N6-mobile-2-Nouveau/tree/main/code/date_json)**
+**[Gestion des dates](https://github.com/departement-info-cem/5N6-mobile-2/tree/main/code/http/05-date_json)**
 
 :::
 

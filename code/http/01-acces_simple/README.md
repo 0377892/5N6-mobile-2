@@ -1,6 +1,6 @@
 # acces_simple
 
-Accès Simple
+Démonstration d'un accès HTTP simple avec DIO
 
 ## Getting Started
 

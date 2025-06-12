@@ -1,6 +1,6 @@
 # cookie_devtools
 
-Cookie Devtools
+Démonstration d'un accès HTTP qui utilise des cookies avec DIO
 
 ## Getting Started
 

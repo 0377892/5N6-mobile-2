@@ -5,11 +5,11 @@ import 'package:dio_cookie_manager/dio_cookie_manager.dart';
 import 'package:cookie_jar/cookie_jar.dart';
 
 class SingletonDio {
-  static var cookiemanager = CookieManager(CookieJar());
+  static var cookieManager = CookieManager(CookieJar());
 
   static Dio getDio() {
     Dio dio = Dio();
-    dio.interceptors.add(cookiemanager);
+    dio.interceptors.add(cookieManager);
     return dio;
   }
 }
@@ -24,7 +24,7 @@ Future<String> cookieDemo() async {
 Future<SignupResponse> signup(SignupRequest req) async {
   try {
     var response = await SingletonDio.getDio()
-        .post('https://kickmyb-server.onrender.com/api/id/signup', data: req);
+        .post('https://kickmyb-server.onrender.com/id/inscription', data: req);
     print(response);
     return SignupResponse.fromJson(response.data);
   } catch (e) {

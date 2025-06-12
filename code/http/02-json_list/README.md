@@ -1,6 +1,6 @@
 # json_list
 
-JSON List
+Démonstration d'un accès HTTP qui retourne un objet complexe avec DIO
 
 ## Getting Started
 

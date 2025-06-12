@@ -160,9 +160,9 @@ const sidebars = {
     },
   ],
   tp: [
-    { type: "doc", label: "TP1 - Flutter", id: "tp/tp1" },
-    { type: "doc", label: "TP2 - Gestion des images", id: "tp/tp2" },
-    { type: "doc", label: "TP3 - Sans serveur", id: "tp/tp3" },
+    { type: "doc", label: "TP1 - Flutter 🐤", id: "tp/tp1" },
+    { type: "doc", label: "TP2 - Gestion des images 🖼️", id: "tp/tp2" },
+    { type: "doc", label: "TP3 - Sans serveur 🙅", id: "tp/tp3" },
   ],
 };
 

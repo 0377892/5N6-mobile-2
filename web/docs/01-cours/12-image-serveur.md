@@ -1,6 +1,5 @@
 ---
-title: Image Serveur
-description: Image - serveur > stockage et service en binaire
+description: Stocker une image en binaire dans une BD
 hide_table_of_contents: true
 ---
 

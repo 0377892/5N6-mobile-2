@@ -1,6 +1,5 @@
 ---
-title: Datastore Firebase
-description: Firestore - Introduction
+description: Stocker des données
 hide_table_of_contents: true
 ---
 

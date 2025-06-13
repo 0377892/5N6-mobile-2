@@ -1,6 +1,5 @@
 ---
-title: Intro Firebase
-description: Firebase - création de compte et d'application
+description: Création de compte et d'application
 hide_table_of_contents: true
 ---
 

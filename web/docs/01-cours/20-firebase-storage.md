@@ -1,6 +1,5 @@
 ---
-title: Stockage Firebase/Supabase
-description: Firestore - gestion des images
+description: Stocker des fichiers
 hide_table_of_contents: true
 ---
 

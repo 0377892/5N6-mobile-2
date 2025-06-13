@@ -1,6 +1,5 @@
 ---
-title: Gestion de l'état
-description: Gestion de l'état
+description: Cycle de vie d'une application
 hide_table_of_contents: true
 ---
 

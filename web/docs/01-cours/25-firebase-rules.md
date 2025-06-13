@@ -1,6 +1,5 @@
 ---
-title: Règles Firebase
-description: Firebase - règles d'accès pour les différents services
+description: Règles d'accès pour les différents services
 hide_table_of_contents: true
 ---
 
@@ -27,6 +26,7 @@ Pour la mise en place, vous pouvez regarder la **[documentation ici](notice-fire
 :::info Séance :
 
 À la création de votre DB Firestore, vous avez des règles d'accès qui ressemble à ceci
+
 ```js title="Version de Test"
 rules_version = '2';
 

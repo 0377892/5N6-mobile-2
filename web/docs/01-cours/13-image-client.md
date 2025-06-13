@@ -1,6 +1,5 @@
 ---
-title: Image Client
-description: Image - affichage côté client
+description: Afficher une image
 hide_table_of_contents: true
 ---
 

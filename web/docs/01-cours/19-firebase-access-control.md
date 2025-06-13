@@ -1,6 +1,5 @@
 ---
-title: Contrôle d'accès Firebase
-description: Firestore - contrôle d'accès et typage des données
+description: Sécuriser une application et typer des données pour Firebase
 hide_table_of_contents: true
 ---
 
@@ -27,16 +26,19 @@ Videos à regarder:
 :::info Séance :
 
 Quel identifiant pour l'utilisateur:
+
 - courriel?
 - ID fourni par FireBase ?
 
 Nous allons discuter de comment rattacher les données à l'utilisateur :
+
 - Créer un compte dans le firestore qui utilise l'identifiant de l'utilisateur authentifié
-- Inclure l'identifiant de l'utilisateur dans les objets stockés (comme un champ) 
+- Inclure l'identifiant de l'utilisateur dans les objets stockés (comme un champ)
 
 Nous regarderons la démo [FireStore typé](https://github.com/departement-info-cem/5N6-mobile-2/tree/main/code/firestore_typed):
+
 - Accès typés au firestore
-- Récupération du server time à la création d'un objet 
+- Récupération du server time à la création d'un objet
 - Accès unique aux données ou accès via un Stream
 
 :::

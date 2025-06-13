@@ -52,10 +52,14 @@ Notice pour déployer sur Mac [ici](mac)
 
 </Row>
 
+## Plan des séances
+
+<MainDocsGrid />
+
 | Semaine                                   | Séquence des cours                    | Travaux pratiques  |
 | ----------------------------------------- | ------------------------------------- | ------------------ |
 | [1.1 →](cours/intro)                      | Plan de cours, premier projet Flutter | --                 |
-| [1.2 →](cours/mise-en-page)                     | Mise en page                          | --                 |
+| [1.2 →](cours/mise-en-page)               | Mise en page                          | --                 |
 | [2.1 →](cours/navigation)                 | Navigation                            | Projet créé        |
 | [2.2 →](cours/liste)                      | Liste                                 | 10%                |
 | [3.1 →](cours/liste)                      | Liste                                 | 25%                |

@@ -1,6 +1,5 @@
 ---
-title: Organisation du code
-description: Organisation du code et extraires des widgets
+description: Extraires des widgets
 hide_table_of_contents: true
 ---
 
@@ -12,12 +11,10 @@ hide_table_of_contents: true
 
 :::tip Avant la séance :
 
-
 ### Organisation du code
 
 Nous vous suggérons cette organisation de fichiers et de dossiers
 ![Organisation du code](_24-organisation/organisation.png)
-
 
 ### Extraire des widgets
 
@@ -40,7 +37,7 @@ De plus, en Dart tout fichier (plus ses `part`) est considéré comme une librai
 
 :::info Séance :
 
-On discutera de comment structurer notre code efficacement. 
+On discutera de comment structurer notre code efficacement.
 
 On discutera des outils à notre disposition pour diviser nos widgets. Nous établirons également des règles générales pour diviser nos widgets et notre code.
 
@@ -61,10 +58,10 @@ Prendre le projet suivant: **[Code à organiser](_24-organisation/organisation.z
 Extraire des widgets de la méthode build pour la rendre plus lisible.
 
 Vous devriez avoir au minimum
+
 - Un widget réutilisable pour afficher le drawer
 - Un widget réutilisable pour afficher un chat
 - Une méthode pour afficher la bannière du haut
 - Une méthode pour afficher le ListView
-
 
 :::

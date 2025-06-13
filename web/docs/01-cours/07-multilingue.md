@@ -1,6 +1,5 @@
 ---
-title: Déploiement
-description: Déploiement
+description: Traduire une application
 hide_table_of_contents: true
 ---
 
@@ -22,21 +21,19 @@ Cependant, vous pouvez regarder la doc de Flutter en ligne sur l'internationaliz
 
 Vous devrez étudier l'exemple de code suivant sur le [les changements d'orientations](https://github.com/departement-info-cem/5N6-mobile-2-Nouveau/tree/main/code/portrait_paysage). Cherchez les TODOs pour les explications. Dans IntelliJ **View** > **Tool Windows** > **TODO**.
 
-
 :::
 
 </Column>
 
 <Column>
 
-:::info Séance  : Multilingue et OrientationBuilder
+:::info Séance : Multilingue et OrientationBuilder
 
 Nous regarderons comment utiliser le plugin de Jetbrains [Flutter Intl](https://plugins.jetbrains.com/plugin/13666-flutter-intl).
 
 Nous regarderons comment utiliser l'OrientationBuilder pour contrôler les changements d'orientation.
 
 :::
-
 
 </Column>
 

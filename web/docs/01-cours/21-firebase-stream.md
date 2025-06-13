@@ -1,6 +1,5 @@
 ---
-title: Stream Firebase
-description: Firebase - affichage par stream et requêtes
+description: Être avertis de changement sur le serveur
 hide_table_of_contents: true
 ---
 

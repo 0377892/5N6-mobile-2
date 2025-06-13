@@ -1,6 +1,4 @@
 ---
-title: Examen
-description: Examen
 hide_table_of_contents: true
 ---
 

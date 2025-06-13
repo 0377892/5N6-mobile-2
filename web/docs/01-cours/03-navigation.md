@@ -1,6 +1,5 @@
 ---
-title: Navigation
-description: Flutter - Navigation
+description: Passer d'une page à l'autre
 hide_table_of_contents: true
 ---
 

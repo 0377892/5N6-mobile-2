@@ -1,6 +1,5 @@
 ---
-title: Intro
-description: Flutter - Intro
+description: Tape le lapin 🐇
 hide_table_of_contents: true
 ---
 

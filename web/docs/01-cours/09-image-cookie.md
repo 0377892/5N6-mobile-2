@@ -1,6 +1,5 @@
 ---
-title: Image Cookie
-description: Image - Utilisation des cookies
+description: Obtenir des images authentifiées d'un serveur
 hide_table_of_contents: true
 ---
 

@@ -1,6 +1,5 @@
 ---
-title: Mise en page
-description: Flutter - Mise en page
+description: Row, Column, Expanded
 hide_table_of_contents: true
 ---
 

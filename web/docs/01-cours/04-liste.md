@@ -1,6 +1,6 @@
 ---
-title: Liste
-description: Flutter - Gestion de listes
+title: 2.2 - Liste 📋
+description: Lister des éléments
 hide_table_of_contents: true
 ---
 

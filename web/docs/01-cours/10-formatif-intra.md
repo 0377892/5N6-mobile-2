@@ -1,6 +1,4 @@
 ---
-title: Formatif Intra
-description: Formatif Intra
 hide_table_of_contents: true
 ---
 

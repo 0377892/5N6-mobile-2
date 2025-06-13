@@ -1,6 +1,5 @@
 ---
-title: Image Picker
-description: Image - sélection et envoi côté client
+description: Sélectionner une image dans le stockage de l'appareil
 hide_table_of_contents: true
 ---
 

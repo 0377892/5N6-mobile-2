@@ -1,12 +1,10 @@
 ---
-title: Spring Boot DELETE
-description: Spring Boot - Suppression de tâches
 hide_table_of_contents: false
 ---
 
 # Supprimer les tâches
 
-Dans ces 2 périodes, vous allez implanter la suppression de tâches dans l'application ... par équipe de 2 (3 s'il reste un tout seul). 
+Dans ces 2 périodes, vous allez implanter la suppression de tâches dans l'application ... par équipe de 2 (3 s'il reste un tout seul).
 
 Ce qu'on va y gagner:
 
@@ -16,10 +14,9 @@ Ce qu'on va y gagner:
 - l'utilisation de Github, des Issues pour planifier vos tâches
 
 :::danger Attention!
-VOUS DEVEZ FAIRE LE TOUT PENDANT LES 6 HEURES DE COURS EN CLASSE. 
+VOUS DEVEZ FAIRE LE TOUT PENDANT LES 6 HEURES DE COURS EN CLASSE.
 UTILISER LE TEMPS DE TRAVAIL A LA MAISON POUR COMPLETER VOTRE TP2
 :::
-
 
 ## Etape 0 : Discussion sur "soft delete" et "hard delete"
 
@@ -37,9 +34,8 @@ Quelques questions pour partir la conversation:
 ## Etape 1 : Fork du projet et ajout du ou des coéquipiers
 
 1. Aller sur le repo du serveur : [https://github.com/departement-info-cem/KickMyB-Server](https://github.com/departement-info-cem/KickMyB-Server)
-2. Un des équipiers forke le projet dans son compte  : [https://docs.github.com/fr/get-started/quickstart/fork-a-repo](https://docs.github.com/fr/get-started/quickstart/fork-a-repo)
+2. Un des équipiers forke le projet dans son compte : [https://docs.github.com/fr/get-started/quickstart/fork-a-repo](https://docs.github.com/fr/get-started/quickstart/fork-a-repo)
 3. Il ajoute son co-équipier comme contributor au repo : [https://docs.github.com/en/issues/planning-and-tracking-with-projects/managing-your-project/managing-access-to-your-projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/managing-your-project/managing-access-to-your-projects)
-
 
 ## Etape 2 : planification du sprint / découpage en tâches
 
@@ -52,7 +48,7 @@ L'ajout de la suppression va demander de faire des modifications aux niveaux sui
   - Tester la méthode de service
 - Serveur Controller :
   - ajouter le point d'entrée pour la suppression, choisir l'URL, besoin de classes de transfert nouvelles (DTO)
-  - voir si les autres <strong>"/api/**"</strong> doivent être modifiés
+  - voir si les autres <strong>"/api/\*\*"</strong> doivent être modifiés
 - **INDIVIDUEL** : Client Réseau : ajouter au moins le nouvel appel pour suppression et modification si nécessaire
 - **INDIVIDUEL** : Client Interface : ajouter la possibilité de suppression une tâche quelque part dans l'application
 
@@ -60,7 +56,7 @@ Chaque équipe va découper en tâches. **VALIDEZ VOS TÂCHES AVEC LE PROF**
 
 :::caution Attention!
 
-Pour tester le tout, vous devrez soit utiliser Postman, soit l'intégrer à votre TP2. 
+Pour tester le tout, vous devrez soit utiliser Postman, soit l'intégrer à votre TP2.
 
 Si vous intégrez dans le TP2, vous devrez le faire chacun sur le vôtre.
 
@@ -95,26 +91,24 @@ Appelez le prof pour votre revue:
 
 ## Annexe appels de base / Postman
 
-
-
 ```json title="POST /api/id/signup"
 {
-  "username" : "MrPipo",
-  "password" : "pipo"
+  "username": "MrPipo",
+  "password": "pipo"
 }
 ```
 
 ```json title="POST /api/id/signin"
 {
-  "username" : "MrPipo",
-  "password" : "pipo"
+  "username": "MrPipo",
+  "password": "pipo"
 }
 ```
 
 ```json title="POST /api/add"
 {
-  "name" : "test",
-  "deadline" : "2069-05-24T12:12:12"
+  "name": "test",
+  "deadline": "2069-05-24T12:12:12"
 }
 ```
 

@@ -1,6 +1,5 @@
 ---
-title: Intégration
-description: Intégration
+description: Travail sur le TP
 hide_table_of_contents: true
 ---
 

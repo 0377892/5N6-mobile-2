@@ -54,4 +54,26 @@ Notice pour déployer sur Mac [ici](mac)
 
 ## Plan des séances
 
-<MainDocsGrid />
+<DocsViewer
+tabs={[
+{
+id: "grid",
+label: "Liste",
+icon: "📋",
+component: <MainDocsGrid />,
+},
+{
+id: "calendar-pierre",
+label: "Pierre-Olivier",
+icon: "📅",
+component: <MainDocsCalendar professorName="Pierre-Olivier" />,
+},
+{
+id: "calendar-jean",
+label: "Jean-Michel",
+icon: "📅",
+component: <MainDocsCalendar professorName="Jean-Michel" />,
+},
+]}
+defaultTabId="grid"
+/>

@@ -7,11 +7,23 @@ const sidebars = {
       type: "doc",
       label: "1.1 - Intro 🏁",
       id: "cours/intro",
+      customProps: {
+        calendrier: {
+          "Pierre-Olivier": "2025-06-09",
+          "Jean-Michel": "2025-06-09",
+        },
+      },
     },
     {
       type: "doc",
       label: "1.2 - Mise en page 📄",
       id: "cours/mise-en-page",
+      customProps: {
+        calendrier: {
+          "Pierre-Olivier": "2025-06-09",
+          "Jean-Michel": "2025-06-09",
+        },
+      },
     },
     {
       type: "doc",
@@ -20,6 +32,10 @@ const sidebars = {
       customProps: {
         avancementLabel: "TP1 - Créé",
         avancement: 0.0,
+        calendrier: {
+          "Pierre-Olivier": "2025-06-11",
+          "Jean-Michel": "2025-06-09",
+        },
       },
     },
     {
@@ -29,6 +45,10 @@ const sidebars = {
       customProps: {
         avancementLabel: "TP1",
         avancement: 0.1,
+        calendrier: {
+          "Pierre-Olivier": "2025-06-11",
+          "Jean-Michel": "2025-06-11",
+        },
       },
     },
     {
@@ -38,6 +58,10 @@ const sidebars = {
       customProps: {
         avancementLabel: "TP1",
         avancement: 0.25,
+        calendrier: {
+          "Pierre-Olivier": "2025-06-12",
+          "Jean-Michel": "2025-06-11",
+        },
       },
     },
     {
@@ -47,6 +71,10 @@ const sidebars = {
       customProps: {
         avancementLabel: "TP1",
         avancement: 0.5,
+        calendrier: {
+          "Pierre-Olivier": "2025-06-12",
+          "Jean-Michel": "2025-06-12",
+        },
       },
     },
     {
@@ -56,25 +84,37 @@ const sidebars = {
       customProps: {
         avancementLabel: "TP1",
         avancement: 0.75,
+        calendrier: {
+          "Pierre-Olivier": "2025-06-16",
+          "Jean-Michel": "2025-06-12",
+        },
       },
     },
     {
       type: "doc",
       label: "4.2 - Intégration 🔨",
       id: "cours/integration",
-      className: "remise-tp1",
       customProps: {
         avancementLabel: "TP1",
         avancement: 1,
+        calendrier: {
+          "Pierre-Olivier": "2025-06-16",
+          "Jean-Michel": "2025-06-16",
+        },
       },
     },
     {
       type: "doc",
       label: "5.1 - Organisation du code 🧹",
       id: "cours/organisation",
+      className: "remise-tp1",
       customProps: {
         avancementLabel: "TP2 - Créé",
         avancement: 0.0,
+        calendrier: {
+          "Pierre-Olivier": "2025-06-18",
+          "Jean-Michel": "2025-06-16",
+        },
       },
     },
     {
@@ -84,6 +124,10 @@ const sidebars = {
       customProps: {
         avancementLabel: "TP2",
         avancement: 0.1,
+        calendrier: {
+          "Pierre-Olivier": "2025-06-18",
+          "Jean-Michel": "2025-06-16",
+        },
       },
     },
     {
@@ -93,6 +137,10 @@ const sidebars = {
       customProps: {
         avancementLabel: "TP2",
         avancement: 0.2,
+        calendrier: {
+          "Pierre-Olivier": "2025-06-19",
+          "Jean-Michel": "2025-06-18",
+        },
       },
     },
     {
@@ -102,6 +150,10 @@ const sidebars = {
       customProps: {
         avancementLabel: "TP2",
         avancement: 0.3,
+        calendrier: {
+          "Pierre-Olivier": "2025-06-19",
+          "Jean-Michel": "2025-06-18",
+        },
       },
     },
     {
@@ -111,6 +163,10 @@ const sidebars = {
       customProps: {
         avancementLabel: "TP2",
         avancement: 0.3,
+        calendrier: {
+          "Pierre-Olivier": "2025-06-23",
+          "Jean-Michel": "2025-06-19",
+        },
       },
     },
     {
@@ -118,6 +174,12 @@ const sidebars = {
       label: "7.2 - Examen Intra (20%) ✍️",
       id: "cours/examen",
       className: "examen",
+      customProps: {
+        calendrier: {
+          "Pierre-Olivier": "2025-06-23",
+          "Jean-Michel": "2025-06-19",
+        },
+      },
     },
     {
       type: "doc",
@@ -126,6 +188,10 @@ const sidebars = {
       customProps: {
         avancementLabel: "TP2",
         avancement: 0.4,
+        calendrier: {
+          "Pierre-Olivier": "2025-06-25",
+          "Jean-Michel": "2025-06-23",
+        },
       },
     },
     {
@@ -135,6 +201,10 @@ const sidebars = {
       customProps: {
         avancementLabel: "TP2",
         avancement: 0.6,
+        calendrier: {
+          "Pierre-Olivier": "2025-06-25",
+          "Jean-Michel": "2025-06-23",
+        },
       },
     },
     {
@@ -144,6 +214,10 @@ const sidebars = {
       customProps: {
         avancementLabel: "TP2",
         avancement: 0.7,
+        calendrier: {
+          "Pierre-Olivier": "2025-06-26",
+          "Jean-Michel": "2025-06-23",
+        },
       },
     },
     {
@@ -153,6 +227,10 @@ const sidebars = {
       customProps: {
         avancementLabel: "TP2",
         avancement: 0.8,
+        calendrier: {
+          "Pierre-Olivier": "2025-06-26",
+          "Jean-Michel": "2025-06-25",
+        },
       },
     },
     {
@@ -162,6 +240,10 @@ const sidebars = {
       customProps: {
         avancementLabel: "TP2",
         avancement: 0.9,
+        calendrier: {
+          "Pierre-Olivier": "2025-07-01",
+          "Jean-Michel": "2025-06-25",
+        },
       },
     },
     {
@@ -172,6 +254,10 @@ const sidebars = {
       customProps: {
         avancementLabel: "TP2",
         avancement: 1,
+        calendrier: {
+          "Pierre-Olivier": "2025-07-01",
+          "Jean-Michel": "2025-06-26",
+        },
       },
     },
     {
@@ -181,6 +267,10 @@ const sidebars = {
       customProps: {
         avancementLabel: "TP3 - Créé",
         avancement: 0.0,
+        calendrier: {
+          "Pierre-Olivier": "2025-07-02",
+          "Jean-Michel": "2025-06-26",
+        },
       },
     },
     {
@@ -190,6 +280,10 @@ const sidebars = {
       customProps: {
         avancementLabel: "TP3",
         avancement: 0.1,
+        calendrier: {
+          "Pierre-Olivier": "2025-07-02",
+          "Jean-Michel": "2025-07-01",
+        },
       },
     },
     {
@@ -199,6 +293,10 @@ const sidebars = {
       customProps: {
         avancementLabel: "TP3",
         avancement: 0.2,
+        calendrier: {
+          "Pierre-Olivier": "2025-07-03",
+          "Jean-Michel": "2025-07-01",
+        },
       },
     },
     {
@@ -208,6 +306,10 @@ const sidebars = {
       customProps: {
         avancementLabel: "TP3",
         avancement: 0.3,
+        calendrier: {
+          "Pierre-Olivier": "2025-07-03",
+          "Jean-Michel": "2025-07-01",
+        },
       },
     },
     {
@@ -217,6 +319,10 @@ const sidebars = {
       customProps: {
         avancementLabel: "TP3",
         avancement: 0.4,
+        calendrier: {
+          "Pierre-Olivier": "2025-07-07",
+          "Jean-Michel": "2025-07-02",
+        },
       },
     },
     {
@@ -226,6 +332,10 @@ const sidebars = {
       customProps: {
         avancementLabel: "TP3",
         avancement: 0.5,
+        calendrier: {
+          "Pierre-Olivier": "2025-07-07",
+          "Jean-Michel": "2025-07-02",
+        },
       },
     },
     {
@@ -235,6 +345,10 @@ const sidebars = {
       customProps: {
         avancementLabel: "TP3",
         avancement: 0.7,
+        calendrier: {
+          "Pierre-Olivier": "2025-07-09",
+          "Jean-Michel": "2025-07-03",
+        },
       },
     },
     {
@@ -245,18 +359,34 @@ const sidebars = {
       customProps: {
         avancementLabel: "TP3",
         avancement: 1,
+        calendrier: {
+          "Pierre-Olivier": "2025-07-09",
+          "Jean-Michel": "2025-07-03",
+        },
       },
     },
     {
       type: "doc",
       label: "15.1 - Formatif ✍️",
       id: "cours/formatif-final",
+      customProps: {
+        calendrier: {
+          "Pierre-Olivier": "2025-07-10",
+          "Jean-Michel": "2025-07-07",
+        },
+      },
     },
     {
       type: "doc",
       label: "15.2 - Examen Final (20%) ✍️",
       id: "cours/examen",
       className: "examen",
+      customProps: {
+        calendrier: {
+          "Pierre-Olivier": "2025-07-10",
+          "Jean-Michel": "2025-07-07",
+        },
+      },
     },
   ],
   tp: [

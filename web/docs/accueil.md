@@ -55,36 +55,3 @@ Notice pour déployer sur Mac [ici](mac)
 ## Plan des séances
 
 <MainDocsGrid />
-
-| Semaine                                   | Séquence des cours                    | Travaux pratiques  |
-| ----------------------------------------- | ------------------------------------- | ------------------ |
-| [1.1 →](cours/intro)                      | Plan de cours, premier projet Flutter | --                 |
-| [1.2 →](cours/mise-en-page)               | Mise en page                          | --                 |
-| [2.1 →](cours/navigation)                 | Navigation                            | Projet créé        |
-| [2.2 →](cours/liste)                      | Liste                                 | 10%                |
-| [3.1 →](cours/liste)                      | Liste                                 | 25%                |
-| [3.2 →](cours/dio)                        | HTTP avec Dio                         | 50%                |
-| [4.1 →](cours/dio)                        | HTTP avec Dio                         | 75%                |
-| [4.2 →](cours/integration)                | Intégration                           | 100% remise        |
-| [5.1 →](cours/organisation)               | Organisation du code                  | TP2 : Images       |
-| [5.2 →](cours/multilingue)                | Multilingue                           | 10%                |
-| [6.1 →](cours/deploiement)                | Déploiement                           | 20%                |
-| [6.2 →](cours/image-picker)               | Image Picker                          | 30%                |
-| [7.1 →](cours/formatif-intra)             | Formatif                              | 30%                |
-| [7.2 →](cours/examen)                     | **Examen Intra**                      | --                 |
-| [8.1 →](cours/image-cookie)               | Image Cookie                          | 40%                |
-| [8.2 →](cours/image-client)               | Image client                          | 60%                |
-| [9.1 →](cours/springboot-delete)          | Spring Boot                           | 70%                |
-| [9.2 →](cours/springboot-delete)          | Spring Boot                           | 80%                |
-| [10.1 →](cours/gestion-etat)              | Gestion de l'état                     | 90%                |
-| [10.2 →](cours/integration)               | Intégration                           | 100% remise        |
-| [11.1 →](cours/firebase-authentification) | Firebase authentification             | TP3 : sans serveur |
-| [11.2 →](cours/firebase-datastore)        | Firebase Firestore                    | 10%                |
-| [12.1 →](cours/firebase-access-control)   | Firebase contrôle d'accès             | 20%                |
-| [12.2 →](cours/firebase-access-control)   | Firebase contrôle d'accès             | 30%                |
-| [13.1 →](cours/firebase-storage)          | Firebase/Supabase fichiers images     | 40%                |
-| [13.2 →](cours/firebase-stream)           | Firebase Stream                       | 50%                |
-| [14.1 →](cours/firebase-rules)            | Firebase règles d'accès               | 70%                |
-| [14.2 →](cours/integration)               | Intégration                           | 100% remise        |
-| [15.1 →](cours/formatif-final)            | Formatif final                        | --                 |
-| [15.2 →](cours/examen)                    | **Examen final**                      | --                 |

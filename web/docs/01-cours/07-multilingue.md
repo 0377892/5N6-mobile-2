@@ -83,8 +83,6 @@ Tester votre application avec les appreils suivants:
 - Pixel 4 XL
 - Pixel C
 - Nexus 7 (2012)
-- iPhone
-- iPad
 
 <Row>
 

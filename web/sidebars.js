@@ -113,46 +113,46 @@ const sidebars = {
         avancement: 0.0,
         calendrier: {
           "Pierre-Olivier": "2025-06-18",
-          "Jean-Michel": "2025-06-16",
+          "Jean-Michel": "2025-06-18",
         },
       },
     },
     {
       type: "doc",
-      label: "5.2 - Multilingue 🌐",
-      id: "cours/multilingue",
+      label: "5.2 - Image Picker 🤏",
+      id: "cours/image-picker",
       customProps: {
         avancementLabel: "TP2",
         avancement: 0.1,
         calendrier: {
           "Pierre-Olivier": "2025-06-18",
-          "Jean-Michel": "2025-06-16",
-        },
-      },
-    },
-    {
-      type: "doc",
-      label: "6.1 - Déploiement 🤖",
-      id: "cours/deploiement",
-      customProps: {
-        avancementLabel: "TP2",
-        avancement: 0.2,
-        calendrier: {
-          "Pierre-Olivier": "2025-06-19",
           "Jean-Michel": "2025-06-18",
         },
       },
     },
     {
       type: "doc",
-      label: "6.2 - Image Picker 🤏",
-      id: "cours/image-picker",
+      label: "6.1 - Image Cookie 🍪",
+      id: "cours/image-cookie",
       customProps: {
         avancementLabel: "TP2",
         avancement: 0.3,
         calendrier: {
           "Pierre-Olivier": "2025-06-19",
-          "Jean-Michel": "2025-06-18",
+          "Jean-Michel": "2025-06-19",
+        },
+      },
+    },
+    {
+      type: "doc",
+      label: "6.2 - Image Client 🖼️",
+      id: "cours/image-client",
+      customProps: {
+        avancementLabel: "TP2",
+        avancement: 0.4,
+        calendrier: {
+          "Pierre-Olivier": "2025-06-19",
+          "Jean-Michel": "2025-06-19",
         },
       },
     },
@@ -162,10 +162,10 @@ const sidebars = {
       id: "cours/formatif-intra",
       customProps: {
         avancementLabel: "TP2",
-        avancement: 0.3,
+        avancement: 0.4,
         calendrier: {
           "Pierre-Olivier": "2025-06-23",
-          "Jean-Michel": "2025-06-19",
+          "Jean-Michel": "2025-06-16",
         },
       },
     },
@@ -183,21 +183,8 @@ const sidebars = {
     },
     {
       type: "doc",
-      label: "8.1 - Image Cookie 🍪",
-      id: "cours/image-cookie",
-      customProps: {
-        avancementLabel: "TP2",
-        avancement: 0.4,
-        calendrier: {
-          "Pierre-Olivier": "2025-06-25",
-          "Jean-Michel": "2025-06-23",
-        },
-      },
-    },
-    {
-      type: "doc",
-      label: "8.2 - Image Client 🖼️",
-      id: "cours/image-client",
+      label: "8.1 - Multilingue 🌐",
+      id: "cours/multilingue",
       customProps: {
         avancementLabel: "TP2",
         avancement: 0.6,
@@ -209,24 +196,24 @@ const sidebars = {
     },
     {
       type: "doc",
-      label: "9.1 - Spring Boot 🍃",
-      id: "cours/springboot-delete",
+      label: "8.2 - Déploiement 🤖",
+      id: "cours/deploiement",
       customProps: {
         avancementLabel: "TP2",
         avancement: 0.7,
         calendrier: {
-          "Pierre-Olivier": "2025-06-26",
+          "Pierre-Olivier": "2025-06-25",
           "Jean-Michel": "2025-06-23",
         },
       },
     },
     {
       type: "doc",
-      label: "9.2 - Spring Boot 🍃",
-      id: "cours/springboot-delete",
+      label: "9.1 - Gestion de l'état 💱",
+      id: "cours/gestion-etat",
       customProps: {
         avancementLabel: "TP2",
-        avancement: 0.8,
+        avancement: 0.9,
         calendrier: {
           "Pierre-Olivier": "2025-06-26",
           "Jean-Michel": "2025-06-25",
@@ -235,26 +222,26 @@ const sidebars = {
     },
     {
       type: "doc",
-      label: "10.1 - Gestion de l'état 💱",
-      id: "cours/gestion-etat",
-      customProps: {
-        avancementLabel: "TP2",
-        avancement: 0.9,
-        calendrier: {
-          "Pierre-Olivier": "2025-07-01",
-          "Jean-Michel": "2025-06-25",
-        },
-      },
-    },
-    {
-      type: "doc",
-      label: "10.2 - Intégration 🔨",
+      label: "9.2 - Intégration 🔨",
       id: "cours/integration",
       className: "remise-tp2",
       customProps: {
         avancementLabel: "TP2",
         avancement: 1,
         calendrier: {
+          "Pierre-Olivier": "2025-06-26",
+          "Jean-Michel": "2025-06-25",
+        },
+      },
+    },
+    {
+      type: "doc",
+      label: "10.1 - Authentification Firebase 👮",
+      id: "cours/firebase-authentification",
+      customProps: {
+        avancementLabel: "TP3 - Créé",
+        avancement: 0.0,
+        calendrier: {
           "Pierre-Olivier": "2025-07-01",
           "Jean-Michel": "2025-06-26",
         },
@@ -262,11 +249,24 @@ const sidebars = {
     },
     {
       type: "doc",
-      label: "11.1 - Authentification Firebase 👮",
-      id: "cours/firebase-authentification",
+      label: "10.2 - Firebase Firestore 🏪",
+      id: "cours/firebase-datastore",
       customProps: {
-        avancementLabel: "TP3 - Créé",
-        avancement: 0.0,
+        avancementLabel: "TP3",
+        avancement: 0.1,
+        calendrier: {
+          "Pierre-Olivier": "2025-07-01",
+          "Jean-Michel": "2025-06-26",
+        },
+      },
+    },
+    {
+      type: "doc",
+      label: "11.1 - Control d'accès Firebase 💂",
+      id: "cours/firebase-access-control",
+      customProps: {
+        avancementLabel: "TP3",
+        avancement: 0.2,
         calendrier: {
           "Pierre-Olivier": "2025-07-02",
           "Jean-Michel": "2025-06-26",
@@ -275,11 +275,11 @@ const sidebars = {
     },
     {
       type: "doc",
-      label: "11.2 - Firebase Firestore 🏪",
-      id: "cours/firebase-datastore",
+      label: "11.2 - Control d'accès Firebase 💂",
+      id: "cours/firebase-access-control",
       customProps: {
         avancementLabel: "TP3",
-        avancement: 0.1,
+        avancement: 0.3,
         calendrier: {
           "Pierre-Olivier": "2025-07-02",
           "Jean-Michel": "2025-07-01",
@@ -288,51 +288,38 @@ const sidebars = {
     },
     {
       type: "doc",
-      label: "12.1 - Control d'accès Firebase 💂",
-      id: "cours/firebase-access-control",
-      customProps: {
-        avancementLabel: "TP3",
-        avancement: 0.2,
-        calendrier: {
-          "Pierre-Olivier": "2025-07-03",
-          "Jean-Michel": "2025-07-01",
-        },
-      },
-    },
-    {
-      type: "doc",
-      label: "12.2 - Control d'accès Firebase 💂",
-      id: "cours/firebase-access-control",
-      customProps: {
-        avancementLabel: "TP3",
-        avancement: 0.3,
-        calendrier: {
-          "Pierre-Olivier": "2025-07-03",
-          "Jean-Michel": "2025-07-01",
-        },
-      },
-    },
-    {
-      type: "doc",
-      label: "13.1 - Stockage Firebase 💾",
+      label: "12.1 - Stockage Firebase 💾",
       id: "cours/firebase-storage",
       customProps: {
         avancementLabel: "TP3",
         avancement: 0.4,
         calendrier: {
-          "Pierre-Olivier": "2025-07-07",
-          "Jean-Michel": "2025-07-02",
+          "Pierre-Olivier": "2025-07-04",
+          "Jean-Michel": "2025-07-01",
         },
       },
     },
     {
       type: "doc",
-      label: "13.2 - Stream Firebase 🚣",
+      label: "12.2 - Stream Firebase 🚣",
       id: "cours/firebase-stream",
       customProps: {
         avancementLabel: "TP3",
         avancement: 0.5,
         calendrier: {
+          "Pierre-Olivier": "2025-07-04",
+          "Jean-Michel": "2025-07-01",
+        },
+      },
+    },
+    {
+      type: "doc",
+      label: "13.1 - Règles d'accès Firebase 📐",
+      id: "cours/firebase-rules",
+      customProps: {
+        avancementLabel: "TP3",
+        avancement: 0.6,
+        calendrier: {
           "Pierre-Olivier": "2025-07-07",
           "Jean-Michel": "2025-07-02",
         },
@@ -340,14 +327,28 @@ const sidebars = {
     },
     {
       type: "doc",
-      label: "14.1 - Règles d'accès Firebase 📐",
-      id: "cours/firebase-rules",
+      label: "13.2 - Notifications Push",
+      id: "cours/firebase-messenging",
       customProps: {
         avancementLabel: "TP3",
         avancement: 0.7,
         calendrier: {
+          "Pierre-Olivier": "2025-07-07",
+          "Jean-Michel": "2025-07-07",
+        },
+      },
+    },
+    {
+      type: "doc",
+      label: "14.1 - Intégration 🔨",
+      id: "cours/integration",
+      className: "remise-tp3",
+      customProps: {
+        avancementLabel: "TP3",
+        avancement: 0.8,
+        calendrier: {
           "Pierre-Olivier": "2025-07-09",
-          "Jean-Michel": "2025-07-03",
+          "Jean-Michel": "2025-07-04",
         },
       },
     },
@@ -361,7 +362,7 @@ const sidebars = {
         avancement: 1,
         calendrier: {
           "Pierre-Olivier": "2025-07-09",
-          "Jean-Michel": "2025-07-03",
+          "Jean-Michel": "2025-07-07",
         },
       },
     },
@@ -372,7 +373,7 @@ const sidebars = {
       customProps: {
         calendrier: {
           "Pierre-Olivier": "2025-07-10",
-          "Jean-Michel": "2025-07-07",
+          "Jean-Michel": "2025-07-02",
         },
       },
     },
@@ -384,7 +385,7 @@ const sidebars = {
       customProps: {
         calendrier: {
           "Pierre-Olivier": "2025-07-10",
-          "Jean-Michel": "2025-07-07",
+          "Jean-Michel": "2025-07-04",
         },
       },
     },

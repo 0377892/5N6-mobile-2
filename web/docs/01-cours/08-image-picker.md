@@ -53,7 +53,7 @@ Ajouter un bouton pour ouvrir la galerie et changer l'image d'arrière plan.
 
 ### Exercice envoi_images
 
-À partir du serveur suivant : **[serveur d'images]([https://github.com/departement-info-cem/KickMyB-Server/tree/main](https://github.com/departement-info-cem/Exercices-Mobile))** (à télécharger), utilisez les méthodes de controlleur suivantes pour [envoyer](https://github.com/departement-info-cem/Exercices-Mobile/blob/main/src/main/java/org/depinfo/exercices/exos/controller/WebServiceExos.java#L126-L131) et [recevoir](https://github.com/departement-info-cem/Exercices-Mobile/blob/main/src/main/java/org/depinfo/exercices/exos/controller/WebServiceExos.java#L133-L149) des images.
+À partir du serveur suivant : **[serveur d'images](https://github.com/departement-info-cem/Exercices-Mobile)** (à télécharger), utilisez les méthodes de controlleur suivantes pour [envoyer](https://github.com/departement-info-cem/Exercices-Mobile/blob/main/src/main/java/org/depinfo/exercices/exos/controller/WebServiceExos.java#L126-L131) et [recevoir](https://github.com/departement-info-cem/Exercices-Mobile/blob/main/src/main/java/org/depinfo/exercices/exos/controller/WebServiceExos.java#L133-L149) des images.
 
 Regarder la doc du image picker de flutter **[ici](https://pub.dev/packages/image_picker)**.
 

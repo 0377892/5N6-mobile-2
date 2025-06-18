@@ -94,13 +94,13 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
           _imageFile == null
               ? Container(
-                  color: Colors.red,
-                  height: 50,
-                )
+            color: Colors.red,
+            height: 50,
+          )
               : SizedBox(
-                  height: 250,
-                  child: Image.file(_imageFile),
-                ),
+            height: 250,
+            child: Image.file(_imageFile),
+          ),
         ],
       ),
       floatingActionButton: FloatingActionButton(

@@ -54,25 +54,25 @@ class _MyHomePageState extends State<MyHomePage> {
     return ListView(
         children: liste
             .map((e) => ListTile(
-                  tileColor:
-                      e == _selected ? Colors.black12 : Colors.transparent,
-                  leading: e == _selected
-                      ? const Icon(Icons.arrow_right)
-                      : const Icon(Icons.landscape),
-                  title: Text(e),
-                  subtitle: const Text('super description'),
-                  onTap: () {
-                    if (avecDeuxPanneaux) {
-                      _selected =
-                          e; // la reaction a la selection va se faire au setState
-                      setState(() {});
-                    } else {
-                      // TODO ecrire le code pour passer a un autre ecran de detail de l'objet selectionne
-                      ScaffoldMessenger.of(context).showSnackBar(
-                          const SnackBar(content: Text('Coucou')));
-                    }
-                  },
-                ))
+          tileColor:
+          e == _selected ? Colors.black12 : Colors.transparent,
+          leading: e == _selected
+              ? const Icon(Icons.arrow_right)
+              : const Icon(Icons.landscape),
+          title: Text(e),
+          subtitle: const Text('super description'),
+          onTap: () {
+            if (avecDeuxPanneaux) {
+              _selected =
+                  e; // la reaction a la selection va se faire au setState
+              setState(() {});
+            } else {
+              // TODO ecrire le code pour passer a un autre ecran de detail de l'objet selectionne
+              ScaffoldMessenger.of(context).showSnackBar(
+                  const SnackBar(content: Text('Coucou')));
+            }
+          },
+        ))
             .toList());
   }
 
@@ -87,24 +87,24 @@ class _MyHomePageState extends State<MyHomePage> {
             flex: 2,
             child: _selected == null
                 ? // si on n'a rien de selectionne
-                const Text('selectionner un truc dans la liste')
+            const Text('selectionner un truc dans la liste')
                 : Column(
-                    // si on a une selection
-                    children: [
-                      Padding(
-                        padding: const EdgeInsets.all(18.0),
-                        child: Text(_selected),
-                      ),
-                      Padding(
-                        padding: const EdgeInsets.all(8.0),
-                        child: Container(
-                          height: 50,
-                          color: Colors.grey,
-                        ),
-                      ),
-                      // TODO reste de la mise en page
-                    ],
+              // si on a une selection
+              children: [
+                Padding(
+                  padding: const EdgeInsets.all(18.0),
+                  child: Text(_selected),
+                ),
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Container(
+                    height: 50,
+                    color: Colors.grey,
                   ),
+                ),
+                // TODO reste de la mise en page
+              ],
+            ),
           )
         ],
       ),

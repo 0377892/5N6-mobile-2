@@ -1,6 +1,6 @@
 # image_envoi
 
-Image Envoi
+Projet de démonstration pour la sélection et l'envoie d'image
 
 ## Getting Started
 

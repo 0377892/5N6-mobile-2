@@ -1,6 +1,6 @@
 # image_cookies
 
-Image Cookies
+Projet de démonstration pour l'envoie de cookie permettant d'accéder à des images
 
 ## Getting Started
 

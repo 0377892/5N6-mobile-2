@@ -23,7 +23,7 @@ Regardez les exemples de code sur la [gestion d'état](https://github.com/depart
 
 - On expliquera le cycle de vie d'une application Android.
 - On expliqura l'intérêt de stocker un token d'authentification sur le stockage local d'un périphérique.
-- Vous implémenterez la [récupération de session](../02-tp/02-tp2.md#récupération-de-la-session) et le [retour sur l'application](../02-tp/02-tp2.md#retour-sur-lapplication) dans votre travail pratique.
+- Vous implémenterez le [retour sur l'application](../02-tp/02-tp2.md#retour-sur-lapplication) dans votre travail pratique.
 
 :::
 

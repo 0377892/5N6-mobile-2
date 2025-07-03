@@ -22,7 +22,7 @@ Mis à jour en nomvembre 2022
 - cloner ce nouveau repo sur la machine local (GitKraken ou autre)
 - créer un projet flutter de base dans le dossier local du repo
 - dans un terminal (Powershell ou le terminal d'IntelliJ / AndroidStudio)
-- taper : flutter upgrade
+- taper : `flutter upgrade`
 - il s'agit de vous assurer d'avoir une version à jour de flutter pour le projet
 - lancer votre application de base pour vérifier le fonctionnement
 - FAIRE UN COMMIT
@@ -37,20 +37,20 @@ pour chaque étape et également de revenir à un point fonctionnel si une étap
 
 ## Connexion à Firebase via le CLI
 
-- tester en exécutant dans le terminal : firebase login
+- tester en exécutant dans le terminal : `firebase login`
 
 ## Installation de flutterfire-cli (déjà installé par le script, seulement à la maison)
 
 - dans un terminal (celui de IntellijIdea ou AndroidStudio par exemple)
-- taper : dart pub global activate flutterfire_cli
+- taper : `dart pub global activate flutterfire_cli`
 
 ## Configuration du projet avec flutterfire
 
 - dans un terminal (celui de IntellijIdea ou AndroidStudio par exemple)
 - se placer dans le dossier du projet flutter
-- taper : flutter pub add firebase_core
+- taper : `flutter pub add firebase_core`
 - cela ajoute la base de la librairie
-- taper : flutterfire configure
+- taper : `flutterfire configure`
 - vous allez être invité à choisir le projet firebase correspondant au projet
 - FAIRE UN COMMIT et au passage regarder quels fichiers ont été configurés
 - FAIRE UN PUSH

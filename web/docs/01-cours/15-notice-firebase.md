@@ -66,10 +66,10 @@ Vous allez maintenant ajouter plusieurs composantes de Firebase:
 
 - dans un terminal
 - depuis le dossier du projet flutter
-- taper : **flutter pub add cloud_firestore**, il s'agit de la "base de données" de firebase
-- taper : **flutter pub add firebase_auth** pour gérer l'authentification
-- taper : **flutter pub add firebase_storage** pour stocker des fichiers, pour nous les images
-- FINALEMENT, taper **flutterfire configure** pour s'assurer que tout est configuré correctement.
+- taper : `flutter pub add cloud_firestore`, il s'agit de la "base de données" de firebase
+- taper : `flutter pub add firebase_auth` pour gérer l'authentification
+- taper : `flutter pub add firebase_storage` pour stocker des fichiers, pour nous les images
+- FINALEMENT, taper `flutterfire configure` pour s'assurer que tout est configuré correctement.
 - FAIRE UN COMMIT, encore une fois pour se donner un point de retour et voir ce qui s'est passé.
 - FAIRE UN PUSH
 

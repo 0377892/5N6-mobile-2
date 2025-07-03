@@ -3,8 +3,6 @@
 Ceci est l'explication détaillée de la configuration à faire pour
 obtenir une application Flutter fonctionnant avec Firebase.
 
-Mis à jour en nomvembre 2022
-
 ## Firebase, création de compte
 
 - dans un navigateur ouvrir https://firebase.google.com/

@@ -327,8 +327,8 @@ const sidebars = {
     },
     {
       type: "doc",
-      label: "13.2 - Notifications Push",
-      id: "cours/firebase-messenging",
+      label: "13.2 - Intégration 🔨",
+      id: "cours/integration",
       customProps: {
         avancementLabel: "TP3",
         avancement: 0.7,
@@ -347,7 +347,7 @@ const sidebars = {
         avancementLabel: "TP3",
         avancement: 0.8,
         calendrier: {
-          "Pierre-Olivier": "2025-07-09",
+          "Pierre-Olivier": "2025-07-10",
           "Jean-Michel": "2025-07-04",
         },
       },
@@ -372,7 +372,7 @@ const sidebars = {
       id: "cours/formatif-final",
       customProps: {
         calendrier: {
-          "Pierre-Olivier": "2025-07-10",
+          "Pierre-Olivier": "2025-07-09",
           "Jean-Michel": "2025-07-02",
         },
       },

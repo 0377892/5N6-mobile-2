@@ -8,7 +8,7 @@ Si ce n'est pas déjà fait (il faut regarder dans le pubspec pour voir s'il y a
 
 - dans un terminal
 - depuis le dossier du projet flutter
-- taper : flutter pub add firebase_auth
+- taper : `flutter pub add firebase_auth`
 - COMMIT PUSH
 
 ## Activation de l'authentification dans la console de firebase + signin par Google
@@ -56,7 +56,7 @@ void initState() {
 - activer le sign in de Google
 - dans un navigateur aller à https://pub.dev/packages/google_sign_in
 - copier la dépendance google_sign_in avec la bonne version dans votre pubspec.yaml
-- taper : flutterfire configure
+- taper : `flutterfire configure`
 - copier la fonction suivante dans votre écran Flutter de départ
 
 ```dart

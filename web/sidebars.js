@@ -222,7 +222,20 @@ const sidebars = {
     },
     {
       type: "doc",
-      label: "9.2 - Intégration 🔨",
+      label: "9.2 - Notifications 🚨",
+      id: "cours/notification",
+      customProps: {
+        avancementLabel: "TP2",
+        avancement: 1,
+        calendrier: {
+          "Pierre-Olivier": "2025-06-26",
+          "Jean-Michel": "2025-06-25",
+        },
+      },
+    },
+    {
+      type: "doc",
+      label: "10.1 - Intégration 🔨",
       id: "cours/integration",
       className: "remise-tp2",
       customProps: {
@@ -236,7 +249,7 @@ const sidebars = {
     },
     {
       type: "doc",
-      label: "10.1 - Authentification Firebase 👮",
+      label: "10.2 - Authentification Firebase 👮",
       id: "cours/firebase-authentification",
       customProps: {
         avancementLabel: "TP3 - Créé",
@@ -249,7 +262,7 @@ const sidebars = {
     },
     {
       type: "doc",
-      label: "10.2 - Firebase Firestore 🏪",
+      label: "11.1 - Firebase Firestore 🏪",
       id: "cours/firebase-datastore",
       customProps: {
         avancementLabel: "TP3",
@@ -262,7 +275,7 @@ const sidebars = {
     },
     {
       type: "doc",
-      label: "11.1 - Control d'accès Firebase 💂",
+      label: "11.2 - Control d'accès Firebase 💂",
       id: "cours/firebase-access-control",
       customProps: {
         avancementLabel: "TP3",
@@ -275,7 +288,7 @@ const sidebars = {
     },
     {
       type: "doc",
-      label: "11.2 - Control d'accès Firebase 💂",
+      label: "12.1 - Control d'accès Firebase 💂",
       id: "cours/firebase-access-control",
       customProps: {
         avancementLabel: "TP3",
@@ -288,7 +301,7 @@ const sidebars = {
     },
     {
       type: "doc",
-      label: "12.1 - Stockage Firebase 💾",
+      label: "12.2 - Stockage Firebase 💾",
       id: "cours/firebase-storage",
       customProps: {
         avancementLabel: "TP3",
@@ -301,7 +314,7 @@ const sidebars = {
     },
     {
       type: "doc",
-      label: "12.2 - Stream Firebase 🚣",
+      label: "13.1 - Stream Firebase 🚣",
       id: "cours/firebase-stream",
       customProps: {
         avancementLabel: "TP3",
@@ -314,7 +327,7 @@ const sidebars = {
     },
     {
       type: "doc",
-      label: "13.1 - Règles d'accès Firebase 📐",
+      label: "13.2 - Règles d'accès Firebase 📐",
       id: "cours/firebase-rules",
       customProps: {
         avancementLabel: "TP3",
@@ -327,28 +340,14 @@ const sidebars = {
     },
     {
       type: "doc",
-      label: "13.2 - Intégration 🔨",
-      id: "cours/integration",
-      customProps: {
-        avancementLabel: "TP3",
-        avancement: 0.7,
-        calendrier: {
-          "Pierre-Olivier": "2025-07-07",
-          "Jean-Michel": "2025-07-07",
-        },
-      },
-    },
-    {
-      type: "doc",
-      label: "14.1 - Intégration 🔨",
-      id: "cours/integration",
-      className: "remise-tp3",
+      label: "14.1 - Hero 🦸",
+      id: "cours/hero",
       customProps: {
         avancementLabel: "TP3",
         avancement: 0.8,
         calendrier: {
-          "Pierre-Olivier": "2025-07-10",
-          "Jean-Michel": "2025-07-04",
+          "Pierre-Olivier": "2025-07-09",
+          "Jean-Michel": "2025-07-07",
         },
       },
     },

@@ -13,21 +13,19 @@ hide_table_of_contents: true
         label: "Cours",
         icon: "📋",
         component: <MainDocsGrid />,
-        // Les titres et les sous-titres sont définis dans les attributs "title" et "description" de chaque document des cours.
     }, 
     {
-        id: "calendar-prof1",
-        label: "Prof 1", // Modifier pour le nom de l'enseignant
+        id: "calendar-po",
+        label: "Pierre-Olivier",
         icon: "📅",
-        component: <MainDocsCalendar professorName="Prof 1" />, // Doit matcher le nom du professeur qui est dans l'attribut "calendrier" des cours qui sont dans sidebar.js
+        component: <MainDocsCalendar professorName="Pierre-Olivier" />,
     },
     {
-        id: "calendar-prof2",
-        label: "Prof 2",  // Modifier pour le nom de l'enseignant
+        id: "calendar-jm",
+        label: "Jean-Michel",
         icon: "📅",
-        component: <MainDocsCalendar professorName="Prof 2" />, // Doit matcher le nom du professeur qui est dans l'attribut "calendrier" des cours qui sont dans sidebar.js
+        component: <MainDocsCalendar professorName="Jean-Michel" />,
     },
-    //* Ajouter d'autres enseignants ici. Voir sidebar.js pour configurer les calendriers.
     ]}
     defaultTabId="grid"
 />

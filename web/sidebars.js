@@ -9,8 +9,8 @@ const sidebars = {
       id: "cours/intro",
       customProps: {
         calendrier: {
-          "Pierre-Olivier": "2025-08-25",
-          "Jean-Michel": "2025-08-22",
+          "Pierre-Olivier": [{ "1030": "2025-08-25" }],
+          "Jean-Michel": [{ "1010": "2025-08-22" }, { "1020": "2025-08-22" },]
         },
       },
     },
@@ -20,8 +20,8 @@ const sidebars = {
       id: "cours/mise-en-page",
       customProps: {
         calendrier: {
-          "Pierre-Olivier": "2025-08-28",
-          "Jean-Michel": "2025-08-26",
+          "Pierre-Olivier": [{ "1030": "2025-08-28" }],
+          "Jean-Michel": [{ "1010": "2025-08-26" }, { "1020": "2025-08-26" },]
         },
       },
     },
@@ -33,8 +33,8 @@ const sidebars = {
         avancementLabel: "TP1 - Créé",
         avancement: 0.0,
         calendrier: {
-          "Pierre-Olivier": "2025-08-29",
-          "Jean-Michel": "2025-09-02",
+          "Pierre-Olivier": [{ "1030": "2025-08-29" }],
+          "Jean-Michel": [{ "1010": "2025-09-02" }, { "1020": "2025-09-02" },]
         },
       },
     },
@@ -46,8 +46,8 @@ const sidebars = {
         avancementLabel: "TP1",
         avancement: 0.1,
         calendrier: {
-          "Pierre-Olivier": "2025-09-04",
-          "Jean-Michel": "2025-09-05",
+          "Pierre-Olivier": [{ "1030": "2025-09-04" }],
+          "Jean-Michel": [{ "1010": "2025-09-05" }, { "1020": "2025-09-05" },]
         },
       },
     },
@@ -59,8 +59,8 @@ const sidebars = {
         avancementLabel: "TP1",
         avancement: 0.25,
         calendrier: {
-          "Pierre-Olivier": "2025-09-08",
-          "Jean-Michel": "2025-09-09",
+          "Pierre-Olivier": [{ "1030": "2025-09-08" }],
+          "Jean-Michel": [{ "1010": "2025-09-09" }, { "1020": "2025-09-09" },]
         },
       },
     },
@@ -72,8 +72,8 @@ const sidebars = {
         avancementLabel: "TP1",
         avancement: 0.5,
         calendrier: {
-          "Pierre-Olivier": "2025-09-11",
-          "Jean-Michel": "2025-09-12",
+          "Pierre-Olivier": [{ "1030": "2025-09-11" }],
+          "Jean-Michel": [{ "1010": "2025-09-12" }, { "1020": "2025-09-12" },]
         },
       },
     },
@@ -85,8 +85,8 @@ const sidebars = {
         avancementLabel: "TP1",
         avancement: 0.75,
         calendrier: {
-          "Pierre-Olivier": "2025-09-15",
-          "Jean-Michel": "2025-09-16",
+          "Pierre-Olivier": [{ "1030": "2025-09-15" }],
+          "Jean-Michel": [{ "1010": "2025-09-16" }, { "1020": "2025-09-16" },]
         },
       },
     },
@@ -98,8 +98,8 @@ const sidebars = {
         avancementLabel: "TP1",
         avancement: 1,
         calendrier: {
-          "Pierre-Olivier": "2025-09-18",
-          "Jean-Michel": "2025-09-19",
+          "Pierre-Olivier": [{ "1030": "2025-09-18" }],
+          "Jean-Michel": [{ "1010": "2025-09-19" }, { "1020": "2025-09-19" },]
         },
       },
     },
@@ -112,8 +112,8 @@ const sidebars = {
         avancementLabel: "TP2 - Créé",
         avancement: 0.0,
         calendrier: {
-          "Pierre-Olivier": "2025-09-22",
-          "Jean-Michel": "2025-09-23",
+          "Pierre-Olivier": [{ "1030": "2025-09-22" }],
+          "Jean-Michel": [{ "1010": "2025-09-23" }, { "1020": "2025-09-23" },]
         },
       },
     },
@@ -125,8 +125,8 @@ const sidebars = {
         avancementLabel: "TP2",
         avancement: 0.1,
         calendrier: {
-          "Pierre-Olivier": "2025-09-25",
-          "Jean-Michel": "2025-09-26",
+          "Pierre-Olivier": [{ "1030": "2025-09-25" }],
+          "Jean-Michel": [{ "1010": "2025-09-26" }, { "1020": "2025-09-26" },]
         },
       },
     },
@@ -138,8 +138,8 @@ const sidebars = {
         avancementLabel: "TP2",
         avancement: 0.3,
         calendrier: {
-          "Pierre-Olivier": "2025-09-29",
-          "Jean-Michel": "2025-09-30",
+          "Pierre-Olivier": [{ "1030": "2025-09-29" }],
+          "Jean-Michel": [{ "1010": "2025-09-30" }, { "1020": "2025-09-30" },]
         },
       },
     },
@@ -151,8 +151,8 @@ const sidebars = {
         avancementLabel: "TP2",
         avancement: 0.4,
         calendrier: {
-          "Pierre-Olivier": "2025-10-02",
-          "Jean-Michel": "2025-10-03",
+          "Pierre-Olivier": [{ "1030": "2025-10-02" }],
+          "Jean-Michel": [{ "1010": "2025-10-03" }, { "1020": "2025-10-03" },]
         },
       },
     },
@@ -164,8 +164,8 @@ const sidebars = {
         avancementLabel: "TP2",
         avancement: 0.4,
         calendrier: {
-          "Pierre-Olivier": "2025-10-06",
-          "Jean-Michel": "2025-10-07",
+          "Pierre-Olivier": [{ "1030": "2025-10-06" }],
+          "Jean-Michel": [{ "1010": "2025-10-07" }, { "1020": "2025-10-07" },]
         },
       },
     },
@@ -176,8 +176,8 @@ const sidebars = {
       className: "examen",
       customProps: {
         calendrier: {
-          "Pierre-Olivier": "2025-10-08",
-          "Jean-Michel": "2025-10-09",
+          "Pierre-Olivier": [{ "1030": "2025-10-08" }],
+          "Jean-Michel": [{ "1010": "2025-10-09" }, { "1020": "2025-10-09" },]
         },
       },
     },
@@ -189,8 +189,8 @@ const sidebars = {
         avancementLabel: "TP2",
         avancement: 0.6,
         calendrier: {
-          "Pierre-Olivier": "2025-10-20",
-          "Jean-Michel": "2025-10-21",
+          "Pierre-Olivier": [{ "1030": "2025-10-20" }],
+          "Jean-Michel": [{ "1010": "2025-10-21" }, { "1020": "2025-10-21" },]
         },
       },
     },
@@ -202,8 +202,8 @@ const sidebars = {
         avancementLabel: "TP2",
         avancement: 0.7,
         calendrier: {
-          "Pierre-Olivier": "2025-10-23",
-          "Jean-Michel": "2025-10-24",
+          "Pierre-Olivier": [{ "1030": "2025-10-23" }],
+          "Jean-Michel": [{ "1010": "2025-10-24" }, { "1020": "2025-10-24" },]
         },
       },
     },
@@ -215,8 +215,8 @@ const sidebars = {
         avancementLabel: "TP2",
         avancement: 0.9,
         calendrier: {
-          "Pierre-Olivier": "2025-10-27",
-          "Jean-Michel": "2025-10-28",
+          "Pierre-Olivier": [{ "1030": "2025-10-27" }],
+          "Jean-Michel": [{ "1010": "2025-10-28" }, { "1020": "2025-10-28" },]
         },
       },
     },
@@ -228,8 +228,8 @@ const sidebars = {
         avancementLabel: "TP2",
         avancement: 1,
         calendrier: {
-          "Pierre-Olivier": "2025-10-30",
-          "Jean-Michel": "2025-10-31",
+          "Pierre-Olivier": [{ "1030": "2025-10-30" }],
+          "Jean-Michel": [{ "1010": "2025-10-31" }, { "1020": "2025-10-31" },]
         },
       },
     },
@@ -242,8 +242,8 @@ const sidebars = {
         avancementLabel: "TP2",
         avancement: 1,
         calendrier: {
-          "Pierre-Olivier": "2025-11-03",
-          "Jean-Michel": "2025-11-04",
+          "Pierre-Olivier": [{ "1030": "2025-11-03" }],
+          "Jean-Michel": [{ "1010": "2025-11-04" }, { "1020": "2025-11-04" },]
         },
       },
     },
@@ -255,8 +255,8 @@ const sidebars = {
         avancementLabel: "TP3 - Créé",
         avancement: 0.0,
         calendrier: {
-          "Pierre-Olivier": "2025-11-06",
-          "Jean-Michel": "2025-11-07",
+          "Pierre-Olivier": [{ "1030": "2025-11-06" }],
+          "Jean-Michel": [{ "1010": "2025-11-07" }, { "1020": "2025-11-07" },]
         },
       },
     },
@@ -268,8 +268,8 @@ const sidebars = {
         avancementLabel: "TP3",
         avancement: 0.1,
         calendrier: {
-          "Pierre-Olivier": "2025-11-13",
-          "Jean-Michel": "2025-11-11",
+          "Pierre-Olivier": [{ "1030": "2025-11-13" }],
+          "Jean-Michel": [{ "1010": "2025-11-11" }, { "1020": "2025-11-11" },]
         },
       },
     },
@@ -281,8 +281,8 @@ const sidebars = {
         avancementLabel: "TP3",
         avancement: 0.2,
         calendrier: {
-          "Pierre-Olivier": "2025-11-17",
-          "Jean-Michel": "2025-11-14",
+          "Pierre-Olivier": [{ "1030": "2025-11-17" }],
+          "Jean-Michel": [{ "1010": "2025-11-14" }, { "1020": "2025-11-14" },]
         },
       },
     },
@@ -294,8 +294,8 @@ const sidebars = {
         avancementLabel: "TP3",
         avancement: 0.3,
         calendrier: {
-          "Pierre-Olivier": "2025-11-20",
-          "Jean-Michel": "2025-11-18",
+          "Pierre-Olivier": [{ "1030": "2025-11-20" }],
+          "Jean-Michel": [{ "1010": "2025-11-18" }, { "1020": "2025-11-18" },]
         },
       },
     },
@@ -307,8 +307,8 @@ const sidebars = {
         avancementLabel: "TP3",
         avancement: 0.4,
         calendrier: {
-          "Pierre-Olivier": "2025-11-21",
-          "Jean-Michel": "2025-11-24",
+          "Pierre-Olivier": [{ "1030": "2025-11-21" }],
+          "Jean-Michel": [{ "1010": "2025-11-24" }, { "1020": "2025-11-24" },]
         },
       },
     },
@@ -320,8 +320,8 @@ const sidebars = {
         avancementLabel: "TP3",
         avancement: 0.5,
         calendrier: {
-          "Pierre-Olivier": "2025-11-27",
-          "Jean-Michel": "2025-11-25",
+          "Pierre-Olivier": [{ "1030": "2025-11-27" }],
+          "Jean-Michel": [{ "1010": "2025-11-25" }, { "1020": "2025-11-25" },]
         },
       },
     },
@@ -333,8 +333,8 @@ const sidebars = {
         avancementLabel: "TP3",
         avancement: 0.6,
         calendrier: {
-          "Pierre-Olivier": "2025-12-01",
-          "Jean-Michel": "2025-11-28",
+          "Pierre-Olivier": [{ "1030": "2025-12-01" }],
+          "Jean-Michel": [{ "1010": "2025-11-28" }, { "1020": "2025-11-28" },]
         },
       },
     },
@@ -346,8 +346,8 @@ const sidebars = {
         avancementLabel: "TP3",
         avancement: 0.8,
         calendrier: {
-          "Pierre-Olivier": "2025-12-04",
-          "Jean-Michel": "2025-12-02",
+          "Pierre-Olivier": [{ "1030": "2025-12-04" }],
+          "Jean-Michel": [{ "1010": "2025-12-02" }, { "1020": "2025-12-02" },]
         },
       },
     },
@@ -360,8 +360,8 @@ const sidebars = {
         avancementLabel: "TP3",
         avancement: 1,
         calendrier: {
-          "Pierre-Olivier": "2025-12-08",
-          "Jean-Michel": "2025-12-05",
+          "Pierre-Olivier": [{ "1030": "2025-12-08" }],
+          "Jean-Michel": [{ "1010": "2025-12-05" }, { "1020": "2025-12-05" },]
         },
       },
     },
@@ -371,8 +371,8 @@ const sidebars = {
       id: "cours/formatif-final",
       customProps: {
         calendrier: {
-          "Pierre-Olivier": "2025-12-11",
-          "Jean-Michel": "2025-12-16",
+          "Pierre-Olivier": [{ "1030": "2025-12-11" }],
+          "Jean-Michel": [{ "1010": "2025-12-16" }, { "1020": "2025-12-16" },]
         },
       },
     },
@@ -383,8 +383,8 @@ const sidebars = {
       className: "examen",
       customProps: {
         calendrier: {
-          "Pierre-Olivier": "2025-12-22",
-          "Jean-Michel": "2025-12-19",
+          "Pierre-Olivier": [{ "1030": "2025-12-22" }],
+          "Jean-Michel": [{ "1010": "2025-12-19" }, { "1020": "2025-12-19" },]
         },
       },
     },

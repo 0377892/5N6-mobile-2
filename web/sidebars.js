@@ -94,6 +94,7 @@ const sidebars = {
       type: "doc",
       label: "4.2 - Intégration 🔨",
       id: "cours/integration",
+      className: "remise-tp1",
       customProps: {
         avancementLabel: "TP1",
         avancement: 1,
@@ -107,7 +108,6 @@ const sidebars = {
       type: "doc",
       label: "5.1 - Organisation du code 🧹",
       id: "cours/organisation",
-      className: "remise-tp1",
       customProps: {
         avancementLabel: "TP2 - Créé",
         avancement: 0.0,

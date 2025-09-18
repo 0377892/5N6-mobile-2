@@ -1,4 +1,4 @@
-# Test Flutter Firebase
+# Configuration de Firebase dans FLutter
 
 Ceci est l'explication détaillée de la configuration à faire pour
 obtenir une application Flutter fonctionnant avec Firebase.
@@ -12,7 +12,7 @@ obtenir une application Flutter fonctionnant avec Firebase.
 ## Firebase, création du projet
 
 - dans un navigateur, entrez dans la console de firebase
-- créer un nouveau projet Firebase, vous n'avez pas besoin de Google Analytics
+- créer un nouveau projet Firebase, vous n'avez pas besoin de Gemini, ni de Google Analytics
 
 ## Création du projet de code et repo
 
@@ -67,6 +67,7 @@ Vous allez maintenant ajouter plusieurs composantes de Firebase:
 - taper : `flutter pub add cloud_firestore`, il s'agit de la "base de données" de firebase
 - taper : `flutter pub add firebase_auth` pour gérer l'authentification
 - taper : `flutter pub add firebase_storage` pour stocker des fichiers, pour nous les images
+- taper : `flutter pub add firebase_messaging` pour recevoir des notifications
 - FINALEMENT, taper `flutterfire configure` pour s'assurer que tout est configuré correctement.
 - FAIRE UN COMMIT, encore une fois pour se donner un point de retour et voir ce qui s'est passé.
 - FAIRE UN PUSH
@@ -94,6 +95,10 @@ void main() async {
 Ton application est configurée pour Firebase avec succès.
 
 ## Test d'écriture dans firestore
+
+:::info
+Nous allons revenir sur la base de donnée firestore dans un prochain cours. Pour le moment, le but est simplement de s'assurer que tout fonctionne.
+:::
 
 - dans un navigateur allez dans la console firebase
 - créer une base de données firestore pour le projet

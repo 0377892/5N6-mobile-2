@@ -307,8 +307,8 @@ const sidebars = {
         avancementLabel: "TP3",
         avancement: 0.4,
         calendrier: {
-          "Pierre-Olivier": [{ "1030": "2025-11-21" }],
-          "Jean-Michel": [{ "1010": "2025-11-24" }, { "1020": "2025-11-24" },]
+          "Pierre-Olivier": [{ "1030": "2025-11-24" }],
+          "Jean-Michel": [{ "1010": "2025-11-21" }, { "1020": "2025-11-21" },]
         },
       },
     },

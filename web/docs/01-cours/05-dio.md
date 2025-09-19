@@ -60,6 +60,13 @@ On fera une démo sur la personnalisation de la sérialisation d'une propriété
 Vous finirez vos exercices si nécessaire et vous avancerez les appels HTTP et classes de transfert pour votre TP.
 
 :::
+:::danger Commande pour générer les méthodes de sérialisation
+
+```bash
+flutter pub run build_runner build
+```
+
+:::
 
 </Column>
 
